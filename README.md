@@ -19,4 +19,4 @@ After 0.05 seconds, the lidar device sends out and receives another signal. This
 ### Sensor Noise
 Unfortunately, lidar and radar signals are noisy. In other words, they are somewhat inacurrate. A Kalman filter helps to smooth out the noise so that we get a better fix on the bicycle's true position and velocity. 
 
-A Kalman filter does this by weighing the uncertainty in our belief about the location versus the uncertainty in the lidar or radar measurement. If our belief is very uncertain, the Kalman filter gives more weight to the sensor. If the sensor measurement has more uncertainty, our belief about the location gets more weight than the sensor mearuement. 
+A Kalman filter does this by weighing the uncertainty in our belief about the location versus the uncertainty in the lidar or radar measurement. If our belief is very uncertain, the Kalman filter gives more weight to the sensor. If the sensor measurement has more uncertainty, our belief about the location gets more weight than the sensor measurement. 
